@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url('https://png.pngtree.com/back_origin_pic/04/48/50/84cd2a9fbc6cbd5522b2f048a56703a8.jpg');
+    background-size: cover;
+  /*  background-position: position*/
+}
+
+.sign-up-form{
+    width:300px;
+    box-shadow:2px 7px 5px grey;
+    background:#9DA3D2;
+    padding: 20px;
+    margin:8% auto 0;
+    margin-top:10vh;
+    border-radius:3px;
+    text-align:center;
+    border: 1px solid #9f9898;
+}
+
+.sign-up-form h1{
+    color: #614499;
+    margin-bottom: 30px;
+}
+
+.input-box{
+   border-radius:20px;
+   padding:10px;
+   margin:10px 0;
+   width:95%;
+   border: 1px solid #9f9898;
+}
+
+span{
+   font-size:15px;
+   font-weight: lighter;
+}
+
+button{
+   
+    width: 89%;
+    padding: 10px;
+    border-radius: 36px;
+    margin: 10px 0;
+    cursor: pointer;
+    font-size: 19px;
+    border: 1px solid #9f9898;
+
+}
+.forget{
+    display: flex;
+    justify-content: space-around;
+    font-size: 13px;
+    margin-top: 12px;
+    font-weight: bolder;
+}
+.signup-btn{
+    background-color:#E4E7F9;
+    border: 1px solid #9f9898;
+}
+
+button:hover{
+    background-color: rgb(151, 97, 201);
+}
+
+.fb-twitter{
+    display: flex;
+    margin-left:35%;
+}
+
+.facebook img{
+    margin-right: 10px;
+}
+
+.fb-twitter img:hover{
+    transform:scale(1.2);
+}
+
+.signin a{
+    text-decoration: none;
+     font-weight: bolder;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>User Sign In</title>
+     <link rel="stylesheet" href="signIn.css">
+  </head>
+  <body>
+    <div class="sign-up-form">
+      <h1>Sign  In</h1>
+      <form class="" action="index.html" method="post">
+        <input type="email" id="Username" class="input-box" placeholder="Enter username or email">
+        <input type="password" id="Password" class="input-box" placeholder="Password">
+        <p><input type="checkbox" name="" value=""><span>I agree terms & privacy policy</span></p>
+        <button type="button" onclick="auth()" class="signup-btn" name="button">Sign In </button>
+        <div class="forget">
+            <a href="signUp.html">Don't have an account?</a>
+            <a href="#">Forget password?</a>
+        </div>
+        </form>
+    </div>
+    <script>
+      function auth(){
+    var email= document.getElementById("Username").value;
+    var password= document.getElementById("Password").value;
+    if(email=="admin@gmail.com" && password=="admin123"){
+        window.location.assign("index.html")
+        alert("Admin Login Successfully..!")
+    }
+    else{
+        alert("Invalid Information.?")
+        return;
+    }
+    }
+    </script>
+  </body>
+</html>

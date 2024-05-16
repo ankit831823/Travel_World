@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url('https://png.pngtree.com/back_origin_pic/04/48/50/84cd2a9fbc6cbd5522b2f048a56703a8.jpg');
+    background-size: cover;
+  /*  background-position: position*/
+}
+.sign-up-form{
+    width:300px;
+    box-shadow:2px 7px 5px grey;
+    background:#9DA3D2;
+    padding: 20px;
+    margin:8% auto 0;
+    margin-top:10vh;
+    border-radius:3px;
+    text-align:center;
+    border: 1px solid #9f9898;
+}
+.sign-up-form h1{
+    color: white;
+    margin-bottom: 30px;
+}
+.input-box{
+   border-radius:20px;
+   border: 1px solid #9f9898;
+   padding:10px;
+   margin:10px 0;
+   width:95%;
+}
+span{
+font-size:15px;
+font-weight: lighter;
+}
+button{
+    width: 89%;
+    height: 40px;
+    border: 1px solid #9f9898;
+    padding: 5px 2px 2px 2px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 19px;
+
+}
+.signup-btn{
+
+  background-color:#E4E7F9;
+}
+button:hover{
+    background-color: blueviolet;
+}
+
+
+.signin a{
+   text-decoration: none;
+   font-weight: bolder;
+}
+
+.sigin-forgotpass{
+
+   display: flex;
+}
+
+.forget{
+    display: flex;
+    justify-content: space-around;
+    font-size: 13px;
+    margin-top: 24px;
+    font-weight: bolder;
+}

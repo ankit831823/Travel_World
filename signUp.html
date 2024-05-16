@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>User sign Up</title>
+     <link rel="stylesheet" href="signUp.css">
+  </head>
+  <body>
+    <div class="sign-up-form">
+      <h1>Sign Up Now</h1>
+      <form class="" action="index.html" method="post">
+        <input type="text" id="username" class="input-box" placeholder="Username">
+        <input type="email" class="input-box" placeholder="Email address">
+        <input type="password" class="input-box" placeholder="Create Password">
+        <p><input type="checkbox" name="" value=""><span>I agree terms & privacy policy</span></p>
+        <button type="button" onclick="create()" class="signup-btn" name="button">Sign Up   </button>
+        <hr>
+        <p class="or">Or Sign Up Using</p>
+
+        <div class="fb-twitter">
+
+          <div class="facebook">
+            <a href="#"><img src="./image/icons8-twitter-squared-50.png" alt="facebook"></a>
+          </div>
+          <div class="twitter">
+              <a href="#">  <img src="./image/icons8-facebook-50.png" alt="twitter"></a>
+          </div>
+
+        </div>
+        <div class="signin">
+               <p>Already a user? <a href="signIn.html"> Sign In </a>  </p>
+        </div>
+      </form>
+    </div>
+    <script>
+      const name=document.getElementById("username").value;
+      function create(){
+        window.location.assign("signIn.html")
+        alert("\nCongratulations..!!\n Your Account Created..!")
+        return;
+      }
+    </script>
+  </body>
+</html>
